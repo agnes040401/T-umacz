@@ -9,8 +9,6 @@ from openai import OpenAI
 # git init
 # git add tlumacz.py
 # git add . (dodaje wszystkie pliki)
-# git config --global user.email agnieszka.psiuk.programista@gmail.com (tylko raz)
-# git config --global user.name Agnieszka
 # git commit -m 'dodano glowny plik'
 # git status
 # git remote add origin https://github.com/agnes040401/T-umacz.git
