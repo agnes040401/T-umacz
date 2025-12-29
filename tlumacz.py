@@ -11,7 +11,7 @@ from openai import OpenAI
 # git add . (dodaje wszystkie pliki)
 # git commit -m 'dodano glowny plik'
 # git status
-# git remote add origin https://github.com/agnes040401/T-umacz.git
+# git remote add origin https://github.com/agnes040401/Tlumacz_jezykowy.git
 # git remote -v
 # git push -u origin main (za pierwszym razem)
 
