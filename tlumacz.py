@@ -21,8 +21,9 @@ from openai import OpenAI
 # git push
 
 # Mój API z pliku .env
-env = dotenv_values(".env")
-openai_client = OpenAI(api_key=env["OPENAI_API_KEY"])
+# env = dotenv_values(".env")
+openai_client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+st.write(st.secrets["OPENAI_API_KEY"])
 
 def translate_text_llm(text, source_lang, target_lang):
     prompt = f"""

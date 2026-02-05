@@ -1,3 +1,4 @@
 .env
 speech_correct.mp3
 speech.mp3
+secrets.toml
